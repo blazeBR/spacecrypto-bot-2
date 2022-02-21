@@ -52,7 +52,7 @@ def backToMainScreen():
 
 def getDepletedShipsInScreen():
     positions = helper.getImagePositions(
-        'fighting-ship-depleted.png', 0.35)
+        'fighting-ship-depleted.png', 0.45)
 
     print('Depleted ships: ', len(positions))
 
