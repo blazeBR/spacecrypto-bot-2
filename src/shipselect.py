@@ -258,7 +258,7 @@ def backToStageSelectAndWait():
 
 
 def getFightPositionAvailable(screen=None):
-    return helper.getImagePositions('ship-fight-button.png', 0.97, screen)
+    return helper.getImagePositions('ship-fight-button.png', 0.87, screen)
 
 
 def hasShipToFight(screen=None):
